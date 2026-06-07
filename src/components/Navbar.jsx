@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { personal } from "../data/portfolio";
 
 const navLinks = [
   { label: "Home", href: "#hero" },
