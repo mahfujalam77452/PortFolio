@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { MapPin, GraduationCap, Users, Globe } from "lucide-react";
-import { personal, education, organizations, languages } from "../data/portfolio";
+import { personal, education, organizations } from "../data/portfolio";
 import { useInView } from "../hooks/useInView";
 
 export default function About() {

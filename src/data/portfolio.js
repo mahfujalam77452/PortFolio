@@ -1,6 +1,7 @@
 // ============================================================
 //  PORTFOLIO DATA — Edit this file to update your portfolio
 // ============================================================
+
 import ProfilePic from "../assets/profile_image/linkedIn.jpg";
 
 import SUSTLogo from "../assets/SUST/logo.jpg";
@@ -9,26 +10,26 @@ import CodeforcesLogo from "../assets/CP/codeforce.png";
 import CodeChefLogo from "../assets/CP/codechef.png";
 import VjudgeLogo from "../assets/CP/Vjudge.png";
 
-import ilmeraPic1 from "../assets/Project_image/Ilmera/picture_1.png"
-import ilmeraPic2 from "../assets/Project_image/Ilmera/picture_2.png"
-import ilmeraPic3 from "../assets/Project_image/Ilmera/picture_3.png"
+import ilmeraPic1 from "../assets/Project_image/Ilmera/picture_1.png";
+import ilmeraPic2 from "../assets/Project_image/Ilmera/picture_2.png";
+import ilmeraPic3 from "../assets/Project_image/Ilmera/picture_3.png";
 
-import AIVoiceAssistantPic1 from "../assets/Project_image/AI_assistent/picture_1.png"
-import AIVoiceAssistantPic2 from "../assets/Project_image/AI_assistent/picture_2.png"
-import AIVoiceAssistantPic3 from "../assets/Project_image/AI_assistent/picure_3.png"
+import AIVoiceAssistantPic1 from "../assets/Project_image/AI_assistent/picture_1.png";
+import AIVoiceAssistantPic2 from "../assets/Project_image/AI_assistent/picture_2.png";
+import AIVoiceAssistantPic3 from "../assets/Project_image/AI_assistent/picure_3.png";
 
-import EventurePic1 from "../assets/Project_image/Aventure/picture_1.png"
-import EventurePic2 from "../assets/Project_image/Aventure/picure_2.png"
-import EventurePic3 from "../assets/Project_image/Aventure/picure_3.png"
+import EventurePic1 from "../assets/Project_image/Aventure/picture_1.png";
+import EventurePic2 from "../assets/Project_image/Aventure/picure_2.png";
+import EventurePic3 from "../assets/Project_image/Aventure/picure_3.png";
 
-import ECommercePic1 from "../assets/Project_image/E-commerce/picture_1.png"
-import ECommercePic2 from "../assets/Project_image/E-commerce/picture_2.png"
-import ECommercePic3 from "../assets/Project_image/E-commerce/picture_3.png"
+import ECommercePic1 from "../assets/Project_image/E-commerce/picture_1.png";
+import ECommercePic2 from "../assets/Project_image/E-commerce/picture_2.png";
+import ECommercePic3 from "../assets/Project_image/E-commerce/picture_3.png";
 
-import EducationalInstitutePic1 from "../assets/Project_image/Educational_institute/picture_1.png"
-import EducationalInstitutePic2 from "../assets/Project_image/Educational_institute/picture_2.png"
+import EducationalInstitutePic1 from "../assets/Project_image/Educational_institute/picture_1.png";
+import EducationalInstitutePic2 from "../assets/Project_image/Educational_institute/picture_2.png";
 
- // [IMAGE PLACEHOLDER] Replace with your actual profile picture path or URL
+
 // ─── PERSONAL INFO ──────────────────────────────────────────
 export const personal = {
   name: "Md. Mahfuj Alam",
@@ -41,10 +42,10 @@ export const personal = {
   linkedin: "https://www.linkedin.com/in/md-mahfuj-alam-b654722bb/",
   codeforces: "https://codeforces.com/profile/Mahfuj_SUST",
   codechef: "https://www.codechef.com/users/mahfuj_sust",
-  // [IMAGE PLACEHOLDER] Replace with your actual avatar/profile photo URL
   avatar: ProfilePic,
-  resumeLink: "https://drive.google.com/file/d/17QF8pauwWgnA6eW-EebuQ75Wm1dz2BfW/view?usp=sharing", // e.g. "/resume.pdf" or external URL
+  resumeLink: "https://drive.google.com/file/d/17QF8pauwWgnA6eW-EebuQ75Wm1dz2BfW/view?usp=sharing",
 };
+
 
 // ─── EDUCATION ──────────────────────────────────────────────
 export const education = [
@@ -53,13 +54,12 @@ export const education = [
     degree: "B.Sc. in Computer Science and Engineering",
     duration: "Jan 2022 – jun 2026",
     cgpa: "3.44 / 4.00",
-    // [IMAGE PLACEHOLDER] Replace with SUST logo URL
-    logo: SUSTLogo, // e.g. "https://your-cdn.com/sust-logo.png"
+    logo: SUSTLogo,
   },
 ];
 
+
 // ─── SKILLS ─────────────────────────────────────────────────
-// Add or remove skill categories and items freely
 export const skills = [
   {
     category: "Languages",
@@ -88,6 +88,7 @@ export const skills = [
   },
 ];
 
+
 // ─── COMPETITIVE PROGRAMMING ─────────────────────────────────
 export const competitiveProgramming = [
   {
@@ -96,10 +97,9 @@ export const competitiveProgramming = [
     url: "https://codeforces.com/profile/Mahfuj_SUST",
     rating: "1425",
     rank: "Specialist",
-    color: "#1B98F5", // Codeforces specialist blue
+    color: "#1B98F5",
     stats: ["1000+ problems solved", "DS, Greedy, DP, Graphs, Math"],
-    // [IMAGE PLACEHOLDER] Codeforces logo URL
-    logo: CodeforcesLogo, // e.g. "https://your-cdn.com/codeforces-logo.png"
+    logo: CodeforcesLogo,
   },
   {
     platform: "CodeChef",
@@ -109,7 +109,6 @@ export const competitiveProgramming = [
     rank: "3-Star Coder",
     color: "#F1A839",
     stats: ["Regular long challenges", "Rated contest participant"],
-    // [IMAGE PLACEHOLDER] CodeChef logo URL
     logo: CodeChefLogo,
   },
   {
@@ -120,7 +119,6 @@ export const competitiveProgramming = [
     rank: "Problems Solved",
     color: "#FFA116",
     stats: ["226+ problems solved", "Practice & interview prep"],
-    // [IMAGE PLACEHOLDER] LeetCode logo URL
     logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
   },
   {
@@ -141,11 +139,8 @@ export const contestAchievements = [
   "Multiple team contests & hackathons",
 ];
 
+
 // ─── PROJECTS ────────────────────────────────────────────────
-// Each project can have MULTIPLE images — add as many URLs as needed.
-// [IMAGE PLACEHOLDER] comments mark where you should paste image URLs.
-
-
 export const projects = [
   {
     id: 1,
@@ -154,7 +149,7 @@ export const projects = [
     badge: "Live Production",
     badgeColor: "accent",
     liveUrl: "https://www.ilmerafoundation.org/",
-    githubUrl: null, // add if public
+    githubUrl: null,
     description:
       "Official website for a nonprofit operating across Education & Research, Social Welfare, and Foreign Scholarship pillars.",
     highlights: [
@@ -165,13 +160,9 @@ export const projects = [
       "Responsive UI, SEO & performance optimized",
     ],
     techStack: ["React", "Node.js", "Express.js", "MongoDB", "Stripe", "Tailwind CSS"],
-    // [IMAGE PLACEHOLDER] Add Ilmera Foundation screenshots below
-    images: [
-      ilmeraPic1,
-      ilmeraPic2,
-      ilmeraPic3,
-    ],
+    images: [ilmeraPic1, ilmeraPic2, ilmeraPic3],
   },
+
   {
     id: 3,
     title: "Eventure – AI Event Manager",
@@ -188,13 +179,9 @@ export const projects = [
       "Finalist at Green University HackTheAI Hackathon",
     ],
     techStack: ["React", "SmythOS", "AI APIs", "Node.js"],
-    // [IMAGE PLACEHOLDER] Add Eventure screenshots
-    images: [
-      EventurePic1,
-      EventurePic2,
-      EventurePic3,
-    ],
+    images: [EventurePic1, EventurePic2, EventurePic3],
   },
+
   {
     id: 4,
     title: "Educational Institute Management System",
@@ -211,12 +198,9 @@ export const projects = [
       "Islamic educational resources (Quran & Hadith)",
     ],
     techStack: ["React", "Node.js", "Express.js", "MongoDB"],
-    // [IMAGE PLACEHOLDER] Add screenshots
-    images: [
-      EducationalInstitutePic1,
-      EducationalInstitutePic2,
-    ],
+    images: [EducationalInstitutePic1, EducationalInstitutePic2],
   },
+
   {
     id: 5,
     title: "AI Voice Assistant",
@@ -233,13 +217,9 @@ export const projects = [
       "Powered by Google Gemini API",
     ],
     techStack: ["React", "Node.js", "Google Gemini API", "Web Speech API"],
-    // [IMAGE PLACEHOLDER] Add screenshots
-    images: [
-      AIVoiceAssistantPic1,
-      AIVoiceAssistantPic2,
-      AIVoiceAssistantPic3,
-    ],
+    images: [AIVoiceAssistantPic1, AIVoiceAssistantPic2, AIVoiceAssistantPic3],
   },
+
   {
     id: 6,
     title: "E-Commerce Website",
@@ -256,14 +236,9 @@ export const projects = [
       "Clean UI focused on scalability and UX",
     ],
     techStack: ["React", "Node.js", "Express.js", "MongoDB"],
-    // [IMAGE PLACEHOLDER] Add screenshots
-    images: [
-      ECommercePic1,
-      ECommercePic2,
-      ECommercePic3,
-    ],
+    images: [ECommercePic1, ECommercePic2, ECommercePic3],
   },
-  ,
+
   {
     id: 2,
     title: "Research Paper RAG System",
@@ -280,13 +255,10 @@ export const projects = [
       "Query history and analytics for user behavior tracking",
     ],
     techStack: ["Node.js", "Qdrant", "Google Gemini API", "Python", "Vector DB"],
-    // [IMAGE PLACEHOLDER] Add RAG system screenshots
-    images: [
-      null,
-      null,
-    ],
-  }
+    images: [],
+  },
 ];
+
 
 // ─── ORGANIZATIONS ───────────────────────────────────────────
 export const organizations = [
@@ -301,6 +273,7 @@ export const organizations = [
     icon: "Users",
   },
 ];
+
 
 // ─── LANGUAGES ───────────────────────────────────────────────
 export const languages = [
