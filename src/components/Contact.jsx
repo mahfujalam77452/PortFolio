@@ -1,8 +1,10 @@
 import { useRef } from "react";
-import { Mail, Phone, MapPin, Code2 } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { personal } from "../data/portfolio";
 import { SectionLabel } from "./About";
 import { useInView } from "../hooks/useInView";
+
+import  codeforcesIcon from "../assets/CP/codeforce.png";
 
 function GithubIcon({ size = 17 }) {
   return (
@@ -47,7 +49,7 @@ export default function Contact() {
   const socialLinks = [
     { icon: GithubIcon, label: "GitHub", href: personal.github, color: "#E8F0FE" },
     { icon: LinkedinIcon, label: "LinkedIn", href: personal.linkedin, color: "#1B98F5" },
-    { icon: Code2, label: "Codeforces", href: personal.codeforces, color: "#1B98F5" },
+    { icon: () => <img src={codeforcesIcon} alt="Codeforces" className="w-4 h-4" />, label: "Codeforces", href: personal.codeforces, color: "#1B98F5" },
   ];
 
   return (

@@ -53,7 +53,7 @@ export const education = [
     institution: "Shahjalal University of Science and Technology (SUST)",
     degree: "B.Sc. in Computer Science and Engineering",
     duration: "Jan 2022 – jun 2026",
-    cgpa: "3.44 / 4.00",
+    cgpa: "3.45 / 4.00",
     logo: SUSTLogo,
   },
 ];
@@ -114,7 +114,7 @@ export const competitiveProgramming = [
   {
     platform: "LeetCode",
     handle: "—",
-    url: "#",
+    url: "https://leetcode.com/u/Mahfuj_SUST/",
     rating: "226+",
     rank: "Problems Solved",
     color: "#FFA116",
@@ -124,7 +124,7 @@ export const competitiveProgramming = [
   {
     platform: "VJudge",
     handle: "—",
-    url: "#",
+    url: "https://vjudge.net/user/2020331098Mahfuj",
     rating: "200+",
     rank: "Problems Solved",
     color: "#6C757D",
@@ -170,7 +170,7 @@ export const projects = [
     badge: "Finalist",
     badgeColor: "yellow",
     liveUrl: null,
-    githubUrl: null,
+    githubUrl: "https://github.com/minhaj47/Eventure-HackAI",
     description:
       "AI-powered platform to automate event planning, registration, and communication — finalist at Green University HackTheAI Hackathon.",
     highlights: [
@@ -189,7 +189,7 @@ export const projects = [
     badge: "MERN",
     badgeColor: "blue",
     liveUrl: null,
-    githubUrl: null,
+    githubUrl: "https://github.com/mahfujalam77452/Madrasha",
     description:
       "Centralized platform for managing academic, financial, and administrative operations for educational institutions.",
     highlights: [
@@ -208,7 +208,7 @@ export const projects = [
     badge: "AI",
     badgeColor: "purple",
     liveUrl: null,
-    githubUrl: null,
+    githubUrl: "https://github.com/mahfujalam77452/Virtual-assistant",
     description:
       "Voice-enabled AI assistant supporting general conversation, real-time queries, and productivity actions.",
     highlights: [
@@ -246,7 +246,7 @@ export const projects = [
     badge: "AI / ML",
     badgeColor: "purple",
     liveUrl: null,
-    githubUrl: null,
+    githubUrl: "https://github.com/mahfujalam77452/research-paper-rag-assessment/tree/submission/mahfuj-alam",
     description:
       "Retrieval-Augmented Generation system for querying and extracting insights from academic research papers.",
     highlights: [
@@ -254,7 +254,7 @@ export const projects = [
       "Google Gemini API for semantic search & citation-based responses",
       "Query history and analytics for user behavior tracking",
     ],
-    techStack: ["Node.js", "Qdrant", "Google Gemini API", "Python", "Vector DB"],
+    techStack: ["Node.js", "Qdrant", "Google Gemini API", "RAG", "Vector DB"],
     images: [],
   },
 ];
