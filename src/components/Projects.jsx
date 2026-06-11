@@ -148,7 +148,7 @@ function ProjectCard({ project, delay }) {
               style={{ color: "#1E2D45" }}
             >
               {/* [IMAGE PLACEHOLDER] Add image URLs in portfolio.js */}
-              Add images in portfolio.js
+              Backend Project
             </span>
           </div>
         )}
